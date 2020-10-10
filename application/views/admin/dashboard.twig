@@ -1,0 +1,14 @@
+{% extends "admin/base.twig" %}
+
+{% set has_sidebar_menu=true %}
+{% block sidebar_menu %}
+    {% include "admin/parts/sample/sidebar_menu.twig" %}
+{% endblock %}
+
+{% block header %}
+    {% include "admin/parts/sample/dashboard1_header.twig" %}
+{% endblock %}
+
+{% block content%}
+    {% include "admin/parts/sample/dashboard1.twig" %}
+{% endblock %}
